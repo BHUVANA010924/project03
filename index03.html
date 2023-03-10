@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>home page</title>
+</head>
+<body bgcolor="pink">
+<table border="1">
+<tr>
+<td><form name="frmDataEntry" action="processor.html" method ="post">
+<h1> <center>DataEntry Form </center></h1></td></tr>
+<tr>
+<td><h3><p>User Name:</p></td>
+<td><input type ="text" name="txtUserName" id="txtUserName" value=""/></br></td></tr>
+<tr>
+<td><p>Password:</p></td>
+<td><input type="password" name="pwdUser" id="pwdUser" value=""/><br/></td></tr>
+<tr>
+<td><p>Confirm Password:</p></td>
+<td><input type="password name ="pwdConfirm" value=""/><br/></td></tr>
+<tr>
+<td><p>Gender:</p></td>
+<td><input type="radio" name="rdbGender" id="rdbGender" value="M" />Male
+<input type="radio" name="rdbGender" id="rdbGender" value="F" />Female</td></tr>
+<tr>
+<td><p>Are you physically challenged? :</p></td> 
+<td><input type="radio" name="rdbQuestion" id="rdbQuestion" value="y" />yes
+<input type="radio" name="rdbQuestion" id="rdbQuestion" value="n" checkrd />no</td>
+<tr>
+<td><p>Soft Skills</p></td>
+<td><input type="checkbox" name="chkSoftware Skills" value="c" />C
+<input type="checkbox" name="chkSoftware Skills" value="cpp"/>C++
+<input type="checkbox" name="chkSoftware Skills" value="j"/>Java script
+<input type="checkbox" name="chkSoftware Skills" value="p"/>Python</td></tr>
+<tr>
+<td><p>Qualification</p>
+<td><select name="slctQualification" >
+<option value="i">internal(PU)</option>
+<option value="u">UG</option>
+<option value="p">PG</option>
+<option value="d">Diplomo</option>
+<option vale="ph">Ph.D</option></td></tr>
+</select>
+<tr>
+<td><p>Address:</p></td>
+<td><textarea name="txtAddress" wrap="physical"></textarea></br></td></tr>
+<tr>
+<td><input type="submit" value="SUBMIT"/></td>
+<td><input type="reset" value="RESET"/></td></tr>
+</form></h3>
+</body>
+</html>
